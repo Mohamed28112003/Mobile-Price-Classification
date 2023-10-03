@@ -1,4 +1,4 @@
-# Mobile-Price-Classification
+## Introduction
 This project aims to classify the price range of mobile phones using machine learning techniques random forset.
  ## Dataset
 battery_power: Total energy a battery can store in one time measured in mAh
@@ -22,6 +22,16 @@ three_g: Has 3G or not
 touch_screen: Has touch screen or not
 wifi: Has wifi or not
 price_range: This is the target variable with value of 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost)
+## Data Analysis and Preprocessing
+Before building our predictive model, I perform data analysis and preprocessing to understand the dataset and prepare it for training. This includes:
+- Checking the dataset dimensions
+- Exploring feature columns and their types
+- Splitting the data into training and testing sets
+## Exploratory Data Analysis
+Exploratory Data Analysis (EDA) helps us understand the relationships between different features and the target variable. I use visualization libraries such as create visualizations, including:
+- Bar Plots to Explore Categorical Variable 
+- Distribution plots of numerical features
+- Heatmaps to visualize correlations between features
 ## Feature Selection
 The dataset was analyzed to select the most relevant features that contribute to the classification of mobile price range using Wrapper methods. Features such as mobile depth in cm , RAM , 4G , battery power ,dual sim ,pixel resolution height, pixel resolution width,screen height of mobile in cm ,screen width of mobile in cm and touch screen   were considered significant for predicting the price range accurately.
 ## Model Performance
